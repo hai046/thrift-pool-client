@@ -10,6 +10,10 @@ A Thrift Client pool for Java
 * Failover and failback support
 * jdk 1.8 only
 
+##改进
+使用zookeeper Watcher 监控EventType.NodeDataChanged 动态增删节点
+
+
 ## Get Started
 
 ```xml
